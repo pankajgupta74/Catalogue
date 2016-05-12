@@ -1,0 +1,12 @@
+com\rbs\catalogue\service\CatalogueService$2.class
+com\rbs\catalogue\domain\SurchargeRate.class
+com\rbs\catalogue\repository\MongoConfig.class
+com\rbs\catalogue\repository\ItemRepository.class
+com\rbs\catalogue\repository\SurchargeRateRepository.class
+com\rbs\catalogue\controller\CatalogueController.class
+com\rbs\catalogue\domain\Catalogue.class
+com\rbs\catalogue\service\CatalogueService.class
+com\rbs\catalogue\domain\Item.class
+com\rbs\catalogue\monitor\ServiceMonitor.class
+com\rbs\catalogue\App.class
+com\rbs\catalogue\service\CatalogueService$1.class
