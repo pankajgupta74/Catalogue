@@ -20,6 +20,7 @@ import com.rbs.catalogue.repository.ItemRepository;
 import com.rbs.catalogue.repository.MongoConfig;
 import com.rbs.catalogue.repository.SurchargeRateRepository;
 
+
 @SpringBootApplication
 
 @EnableAutoConfiguration(exclude = { MongoAutoConfiguration.class, MongoDataAutoConfiguration.class })
