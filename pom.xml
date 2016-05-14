@@ -9,7 +9,7 @@
 
 	<name>Catalogue</name>
 	<url>http://maven.apache.org</url>
-	
+
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -40,7 +40,7 @@
 		<dependency>
 			<groupId>commons-beanutils</groupId>
 			<artifactId>commons-beanutils</artifactId>
-			</dependency>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
@@ -50,7 +50,7 @@
 		<dependency>
 			<groupId>commons-collections</groupId>
 			<artifactId>commons-collections</artifactId>
-			</dependency>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
@@ -73,7 +73,7 @@
 
 	<build>
 		<plugins>
-		<plugin>
+			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
