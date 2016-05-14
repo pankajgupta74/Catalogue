@@ -23,7 +23,6 @@ import com.rbs.catalogue.repository.SurchargeRateRepository;
 
 
 @SpringBootApplication
-@EnableMongoRepositories
 @EnableAutoConfiguration(exclude = { MongoAutoConfiguration.class, MongoDataAutoConfiguration.class })
 @ComponentScan
 //@Import(MongoConfig.class)
