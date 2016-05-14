@@ -22,7 +22,7 @@ import com.rbs.catalogue.repository.SurchargeRateRepository;
 
 
 @SpringBootApplication
-
+@EnableMongoRepositories
 @EnableAutoConfiguration
 @ComponentScan
 //@Import(MongoConfig.class)
