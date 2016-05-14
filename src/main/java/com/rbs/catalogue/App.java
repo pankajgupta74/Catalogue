@@ -45,16 +45,22 @@ public class App extends SpringBootServletInitializer implements CommandLineRunn
 	@Override
 	public void run(String... args) throws Exception {
 
+		System.out.println("Deleting surcharge");
+
 		surchargeRep.deleteAll();
+		System.out.println("Adding surcharge");
 
 		surchargeRep.save(new SurchargeRate("M", "Management", 0.10, 0.05));
 		surchargeRep.save(new SurchargeRate("NM", "Non-Management",0.10, 0.00));
 
+		System.out.println("Deleting all items");
 		itemRepo.deleteAll();
+		System.out.println("Adding 1st");
 		itemRepo.save(new Item("001",  "Shirt", 27.99, true, 0.0,0.0));
 		itemRepo.save(new Item("002", "Trouser", 18.99, true, 0.0,0.0));
 		itemRepo.save(new Item("003", "Physics Book", 9.75, false, 0.0,0.0));
 		itemRepo.save(new Item("004", "Tie", 11.25, true, 0.0,0.0));
+		System.out.println("Added all");
 
 	}
 
