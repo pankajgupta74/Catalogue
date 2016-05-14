@@ -47,7 +47,7 @@ public class App extends SpringBootServletInitializer implements CommandLineRunn
 	public void run(String... args) throws Exception {
 
 		System.out.println("Deleting surcharge");
-		System.out.println("Deleting surcharge12");
+		System.out.println("Deleting surcharge123");
 
 		surchargeRep.deleteAll();
 		System.out.println("Adding surcharge");
