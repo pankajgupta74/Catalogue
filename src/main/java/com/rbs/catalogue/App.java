@@ -23,9 +23,9 @@ import com.rbs.catalogue.repository.SurchargeRateRepository;
 
 @SpringBootApplication
 
-//@EnableAutoConfiguration(exclude = { MongoAutoConfiguration.class, MongoDataAutoConfiguration.class })
+@EnableAutoConfiguration(exclude = { MongoAutoConfiguration.class, MongoDataAutoConfiguration.class })
 @ComponentScan
-//@Import(MongoConfig.class)
+@Import(MongoConfig.class)
 public class App extends SpringBootServletInitializer implements CommandLineRunner {
 
 	@Autowired
