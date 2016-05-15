@@ -21,8 +21,7 @@ public class CatalogueController {
 	@Autowired
 	private CatalogueService service;
 	
-	@CrossOrigin("http://webapp-dummycompany.rhcloud.com")
-	@CrossOrigin("http://localhost:8080")
+@CrossOrigin(origins = "http://webapp-dummycompany.rhcloud.com")
 	@RequestMapping("/items")
     public List<Catalogue> items(){
 		
