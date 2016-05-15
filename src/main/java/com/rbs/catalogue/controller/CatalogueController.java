@@ -22,7 +22,7 @@ public class CatalogueController {
 	private CatalogueService service;
 	
 	@CrossOrigin("http://webapp-dummycompany.rhcloud.com")
-	@CrossOrigin("http://localhost:8080)
+	@CrossOrigin("http://localhost:8080")
 	@RequestMapping("/items")
     public List<Catalogue> items(){
 		
