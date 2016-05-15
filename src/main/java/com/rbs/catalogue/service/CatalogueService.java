@@ -79,7 +79,7 @@ public class CatalogueService {
 				if (newItem.isSurchargeApplicable()) {
 					if ("M".equals(userType)) {
 						newItem.setBaseSurchargeRate(mgmtSurchargeRate.getBaseSurchargeRate());
-						newItem.setAdditonalSurchargeRate(mgmtSurchargeRate.getAdditionalSurchargeRate());
+						newItem.setAdditionalSurchargeRate(mgmtSurchargeRate.getAdditionalSurchargeRate());
 
 					} else {
 						newItem.setBaseSurchargeRate(nonMgmtSurchargeRate.getBaseSurchargeRate());
@@ -88,7 +88,7 @@ public class CatalogueService {
 
 				} else {
 					if ("M".equals(userType)) {
-						newItem.setAdditonalSurchargeRate(mgmtSurchargeRate.getAdditionalSurchargeRate());
+						newItem.setAdditionalSurchargeRate(mgmtSurchargeRate.getAdditionalSurchargeRate());
 
 					}
 				}
