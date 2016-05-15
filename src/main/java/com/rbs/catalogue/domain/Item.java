@@ -10,23 +10,23 @@ public class Item {
 	private double unitPrice;
 	private boolean isSurchargeApplicable;
 	private double baseSurchargeRate;
-	private double additonalSurchargeRate;
+	private double additionalSurchargeRate;
 	
-	public double getAdditonalSurchargeRate() {
-		return additonalSurchargeRate;
+	public double getAdditionalSurchargeRate() {
+		return additionalSurchargeRate;
 	}
-	public void setAdditonalSurchargeRate(double additonalSurchargeRate) {
-		this.additonalSurchargeRate = additonalSurchargeRate;
+	public void setAdditionalSurchargeRate(double additionalSurchargeRate) {
+		this.additionalSurchargeRate = additionalSurchargeRate;
 	}
 	public Item(String item_id, String item_name, double unitPrice, boolean isSurchargeApplicable,
-			double baseSurchargeRate, double additonalSurchargeRate) {
+			double baseSurchargeRate, double additionalSurchargeRate) {
 		super();
 		this.item_id = item_id;
 		this.item_name = item_name;
 		this.unitPrice = unitPrice;
 		this.isSurchargeApplicable = isSurchargeApplicable;
 		this.baseSurchargeRate = baseSurchargeRate;
-		this.additonalSurchargeRate = additonalSurchargeRate;
+		this.additionalSurchargeRate = additionalSurchargeRate;
 	}
 	public double getBaseSurchargeRate() {
 		return baseSurchargeRate;
