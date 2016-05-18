@@ -14,6 +14,7 @@ import com.rbs.catalogue.domain.Catalogue;
 import com.rbs.catalogue.domain.Item;
 import com.rbs.catalogue.service.CatalogueService;
 
+@CrossOrigin
 @RestController
 @ComponentScan("com.rbs.catalogue.service")
 public class CatalogueController {
