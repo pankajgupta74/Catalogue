@@ -13,7 +13,6 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 import com.rbs.catalogue.domain.Item;
 import com.rbs.catalogue.domain.SurchargeRate;
@@ -23,10 +22,10 @@ import com.rbs.catalogue.repository.SurchargeRateRepository;
 
 
 @SpringBootApplication
-@EnableAutoConfiguration(exclude = { MongoAutoConfiguration.class, MongoDataAutoConfiguration.class })
+
+//@EnableAutoConfiguration(exclude = { MongoAutoConfiguration.class, MongoDataAutoConfiguration.class })
 @ComponentScan
-@EnableMongoRepositories 
-//@Import(MongoConfig.class)
+@Import(MongoConfig.class)
 public class App extends SpringBootServletInitializer implements CommandLineRunner {
 
 	@Autowired
