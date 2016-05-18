@@ -1,0 +1,4 @@
+language: java
+script: mvn package spring-boot:run
+jdk:
+  - oraclejdk7
